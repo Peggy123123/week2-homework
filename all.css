@@ -1,0 +1,294 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Bruno Ace SC" ,serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-top:40px ;
+}
+
+.nav li{
+    max-width: 306px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.header-content{
+    display: flex;
+    padding: 72px 0;
+}
+
+.header-content img{
+    max-width: 636px;
+}
+
+.header-content .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 636px;
+}
+
+.h1-primary{
+    color: #fff;
+    font-size: 64px;
+}
+
+.h1-secondary{
+    color: #00FFA3;
+    font-size: 128px;
+    text-align: right;
+}
+
+.header-content .btn{
+    background: #fff;
+    width: 185px;
+    margin-left: auto;
+    border-radius: 32px;
+    padding: 12px 24px;
+    display: flex;
+}
+.header-content a{
+    text-decoration: none;
+    color: #000;
+}
+
+.introduction{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    background-repeat: no-repeat;
+    
+}
+
+h2{
+    color: #fff;
+    font-size: 64px;
+}
+
+.introduction h2{
+    margin-bottom: 36px;
+}
+
+.introduction-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 0;
+}
+
+.introduction-content text{
+    width: 526px;
+}
+
+.introduction-content p{
+    color: #fff;
+}
+
+.introduction-content .image img{
+    margin-left: 24px;
+    flex-wrap: nowrap;
+}
+
+
+.introduction-content .text img{
+    margin-right: 16px;
+}
+
+.aboutme{
+    background-color: #fff;
+    padding:160px 0;
+}
+
+.aboutme-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutme-list{
+    display: flex;
+    width: 660px;
+    flex-wrap: wrap;
+}
+
+.aboutme-list li{
+    width: 306px;
+    border: 1px solid #E3E3E3;
+    padding: 16px;
+    margin: 12px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.aboutme-text{
+    width: 526px;
+}
+
+.aboutme-text h2{
+    color: #000;
+    margin-bottom: 36px;
+}
+
+.aboutme-text p{
+    font-size: 24px;
+}
+
+.contactme{
+    background: linear-gradient( #050014,#01021E);
+}
+
+.contactme-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 88px 0;
+}
+
+.contactme-title{
+    display: flex;
+}
+
+.contactme-img {
+    display: flex;
+}
+
+.contactme-img li:hover{
+    box-shadow: 3px 3px 16px #9094FF;
+    border-radius: 40px;
+}
+
+.contactme-img>li{
+    margin-right: 20px;
+}
+
+.contactme-title h2{
+    margin-right: 20px;
+}
+
+.project{
+    margin:160px 0;
+}
+
+.project h2{
+    color: #000;
+    max-width: 746px;
+    margin: 0 0 16px auto;
+}
+
+.project-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.side{
+    margin-left: 24px;
+}
+
+.side .text{
+    display: flex;
+    margin-bottom: 28px;
+    
+}
+
+.side .picture img:first-child{
+    margin-right: 24px;
+}
+
+.text-content .btn{
+    background-color: #000;
+    border-radius: 32px;
+    padding: 12px 24px;
+    width: 185px;
+    margin-top: 76px;
+}
+
+.project-content .btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.picture{
+    display: flex;
+}
+
+.text-content{
+    margin-left: 24px;
+}
+
+.footer p{
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
